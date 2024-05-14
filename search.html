@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+	<a class="navbar-brand" href="javascript:void(0)">The Web</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="mynavbar">
+	  <ul class="navbar-nav me-auto">
+		  <li class="nav-item">
+			<a class="nav-link btn btn-outline-light text-secondary me-2" href="index.html">Home</a>
+		  </li>
+		<li class="nav-item">
+		  <a class="nav-link btn btn-outline-light text-secondary me-2" href="general.html">General Web Overview</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link btn btn-outline-light text-secondary me-2" href="search.html">Search Engines and Algorithms</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link btn btn-outline-light text-secondary me-2" href="web.html">Web Tools</a>
+		</li>
+		  <li class="nav-item">
+			<a class="nav-link btn btn-outline-light text-secondary me-2" href="quiz.html">Quiz</a>
+		  </li>
+		<li class="nav-item">
+		  <a class="nav-link btn btn-outline-light text-secondary me-2" href="reference.html">References</a>
+		</li>
+	  </ul>
+	  <form class="d-flex">
+		<input class="form-control me-2" type="text" placeholder="Search">
+		<button class="btn btn-primary" type="button">Search</button>
+	  </form>
+	</div>
+  </div>
+</nav>
+  </div>
+  <div class="mt-4 p-5 bg-info text-white rounded text-center">
+  <h1>Search Engines and Search Algorithms</h1>
+</div>
+
+	</nav>
+  </div>
+
+  <div class="container mt-5">
+	  <div class="col">
+		<h1>Search Engines</h1>
+		  <h2> What is a Search Engine?</h2>
+		  <ul>
+		  <li>A software program or or online service that enables users to search for information on the internet by entering keywords or phrases related to their search query</li>
+			<li>Uses algorithms to search through vast amounts of data stored on web servers and to present the most relevant results to the user.</li>
+			  </ul>
+		  <h2>How Does a Search Engine Work?</h2>
+			<ol>
+			<li>Crawling - the search engine's crawler to scan the web, following links from page
+			to page to collect content</li>
+			<li>Indexing - Once the crawler has collected the content, it is organized and stored
+			in a searchable index, along with information about the page, such as the title,
+			URL, and other metadata.</li>
+				<li>Ranking - When a user enters a search query, the search engine's algorithm
+			retrieves the most relevant pages from the index and ranks them based on a
+			number of factors, including the relevance of the content, the quality of the
+			website, the popularity of the page, and other factors.</li>
+					<li>Deliver Results - The search engine returns a list of results based on the user's
+			search query, with the most relevant pages appearing at the top of the list.</li>
+						<li>Refinement - Users can refine their search results using a variety of tools,
+			including filters, sorting, and advanced search options.</li>
+				</ol>
+		  <h2>Search Engine Metrics</h2>
+			<ul>
+			<li>Relevance: the relevance of a web page to the user's query, taking into account
+				factors such as the title tag, headings, content, and meta descriptions </li>
+				<li>Authority: the number and quality of links pointing to it. Pages with more
+				high-quality links are generally considered to be more authoritative</li>
+				<li>User experience: factors such as page load time, mobile-friendliness, and ease of
+				navigation to determine the user experience of a web page.</li>
+					<li>Freshness: more recently updated pages are often given a higher ranking.</li>
+						<li>Engagement: how users engage with a web page, taking into account factors
+				such as click-through rate, bounce rate, and time spent on the page. Pages with
+				high engagement are generally considered to be more valuable to users and are
+				given a higher ranking.</li>
+				</ul>
+	  </div>
+	  <div class="col">
+		<h1>Search Algorithms</h1>
+		  <h2>PageRank Algorithm</h2>
+		  <ul><li>Analyzes links between web pages to rank relevant web pages in terms of
+		  importance</li>
+			  <li>A web page is considered more credible if other pages link to it</li>
+			  <li>Each web page assigned a score between 0 and 1 based on quality and quality of incoming links</li>
+		  <li>Considerations: Quantity of inlinks, Quality (rank) of inlinks, Relevance of inlinks </li>
+			  <li>Factors Determining Value of an Inlink: PageRank score of the inlink’s web page, Number of outlinks from the inlink’s web page (fewer outlinks
+		  means higher value)</li>
+		  </ul>
+		  <h2>HITS (Hyperlink-Induced Topic Search) Algorithm</h2>
+		  <ul><li>
+			  Identifies a set of web pages relevant to the user query</li>
+			  <li>Gives each web page an authority score based on the number and
+			  quality of incoming links (Assesses important as a source of
+			  information on the query topic)</li>
+			  <li>Gives each web page a hub score based on the number and quality
+			  of outgoing links (based on the pages it is linking to)</li>
+			  <li>Combines authority and hub score to generate a combined score
+			  for each web page</li>
+			  <li>Ranks web pages based on this score</li>
+			  <li>Considerations: authority score - number and quality of incoming links
+			  (inlinks), hub score - number and quality of outgoing links (outlinks)
+		  </li></ul>
+		  <h2>SEO (Search Engine Optimization)</h2>
+		  <p>
+			  SEO (Search Engine Optimization) - The practice of optimizing websites
+			  and their content to rank higher in search engine results pages (SERPs) for
+			  relevant keywords and phrases.
+		  </p>
+		  <h3>White Hat SEO</h3>
+		  <p>Ethical and legitimate techniques used to improve
+		  a website's search engine ranking. Techniques: </p>
+		  <ul><li>Keyword optimization - Using relevant keywords throughout
+		  a web page's content, including headings, meta tags, and
+		  descriptions</li>
+			  <li>Content creation - Creating high-quality, informative, and
+		  engaging content</li>
+			  <li>Link building - Building high-quality backlinks from
+		  reputable sources</li>
+			  <li>Site structure optimization - Optimizing a website's
+		  structure, including navigation, sitemap, and URL structure,
+		  can help search engines crawl and index a website more
+		  efficiently</li>
+			  <li>Mobile optimization - optimizing a website for mobile can
+		  improve user experience and lead to higher search
+		  rankings, as search engines prioritize mobile-friendly sites.</li></ul>
+			<h3>Black Hat SEO</h3>
+		  <p>Use of unethical or deceptive techniques to
+		  improve a website's search engine ranking</p>
+	<ul><li>Cloaking - presenting different content or URLs to users
+	and search engines in order to manipulate search rankings.</li>
+		 <li>Keyword stuffing - using excessive amounts of keywords or
+	phrases on a page in order to manipulate search rankings.</li>
+		 <li>Hidden text or links - hiding text or links on a page that are
+	only visible to search engines, not users, in order to
+	manipulate search rankings.</li>
+		 <li>Link farming - creating artificial links to a website in order
+	to manipulate search rankings.</li></ul>
+	  </div>
+	  <div class="container mt-3">
+		<div class="alert alert-success fade show">
+		  <strong>Great Job!</strong> You should move on to the <a href="web.html" class="alert-link">Web Tools.
+		</div> </div></div>
+  </div>
+</body>
+</html>
